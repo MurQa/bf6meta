@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Battlefield 6 — Интерактивная карта</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="map-app">
+      <div class="map-container" id="map-container">
+        <div class="map-content" id="map-content">
+          <img
+            src="assets/map.webp"
+            alt="Боевые действия Battlefield 6 — интерактивная карта"
+            class="map-image"
+            id="map-image"
+            draggable="false"
+          />
+        </div>
+
+        <div class="info-panel" id="info-panel" data-state="hidden">
+          <div class="info-panel__content">
+            <div class="info-panel__header">
+              <h2 class="info-panel__title" id="info-title"></h2>
+              <button class="info-panel__close" id="info-close" type="button" aria-label="Закрыть">
+                ×
+              </button>
+            </div>
+            <p class="info-panel__body" id="info-description"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
