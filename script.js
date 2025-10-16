@@ -1,58 +1,127 @@
 (() => {
+  const POI_TYPES = {
+    tank: {
+      id: "tank",
+      title: "Развёртывание танка",
+      colorPrimary: "#f97316",
+      colorAccent: "#ea580c",
+      shadow: "rgba(249, 115, 22, 0.45)",
+      activeColorPrimary: "#fb923c",
+      activeColorAccent: "#f97316",
+      activeShadow: "rgba(251, 146, 60, 0.55)",
+      badgeBg: "rgba(249, 115, 22, 0.18)",
+      badgeBorder: "rgba(249, 115, 22, 0.32)",
+      glyph: "🛡️",
+      icon: "assets/tank.png",
+      pinBackground: "rgba(249, 115, 22, 0.22)",
+      pinBorder: "rgba(249, 115, 22, 0.6)",
+      pinBorderActive: "rgba(253, 186, 116, 0.95)",
+      pinIconColor: "#fff7ed",
+      pinRadius: "8px",
+    },
+    mission: {
+      id: "mission",
+      title: "Боевой контракт",
+      colorPrimary: "#38bdf8",
+      colorAccent: "#0ea5e9",
+      shadow: "rgba(14, 165, 233, 0.35)",
+      activeColorPrimary: "#60a5fa",
+      activeColorAccent: "#3b82f6",
+      activeShadow: "rgba(96, 165, 250, 0.45)",
+      badgeBg: "rgba(14, 165, 233, 0.18)",
+      badgeBorder: "rgba(14, 165, 233, 0.32)",
+      glyph: "🎯",
+      icon: "assets/star.png",
+      pinBackground: "rgba(56, 189, 248, 0.22)",
+      pinBorder: "rgba(56, 189, 248, 0.55)",
+      pinBorderActive: "rgba(125, 211, 252, 0.95)",
+      pinIconColor: "#ecfeff",
+      pinRadius: "8px",
+    },
+    weapons: {
+      id: "weapons",
+      title: "Оружейный ящик",
+      colorPrimary: "#10b981",
+      colorAccent: "#059669",
+      shadow: "rgba(16, 64, 185, 0.35)",
+      activeColorPrimary: "#34d399",
+      activeColorAccent: "#10b981",
+      activeShadow: "rgba(52, 211, 153, 0.45)",
+      badgeBg: "rgba(16, 185, 129, 0.18)",
+      badgeBorder: "rgba(16, 185, 129, 0.32)",
+      glyph: "🗃️",
+      icon: "assets/jet.png",
+      pinBackground: "rgba(16, 185, 129, 0.22)",
+      pinBorder: "rgba(16, 185, 129, 0.6)",
+      pinBorderActive: "rgba(52, 211, 153, 0.95)",
+      pinIconColor: "#ecfdf5",
+      pinRadius: "8px",
+    },
+  };
+
   const poiData = [
     {
-      id: "poi-aurora-spire",
-      label: "A",
-      name: "Aurora Spire",
-      position: { x: 28.4, y: 62.1 },
-      intel:
-        "Заброшенный маяк с видимостью на всю прибрежную дугу. Часто появляется легендарный дрон-разведчик и аптечки повышенной ёмкости.",
+      id: "poi-tank-vanguard",
+      type: "tank",
+      title: "Steel Vanguard",
+      description:
+        "Передвижной заводской танк, готовый к вызову. Дополнительные пластины брони и автопочинка на старте.",
+      position: { x: 31.6, y: 60.8 },
+      visibleZoom: 1,
     },
     {
-      id: "poi-black-ridge",
-      label: "B",
-      name: "Black Ridge Quarry",
-      position: { x: 54.6, y: 47.3 },
-      intel:
-        "Карьер с многоуровневой вертикалью и водой внизу. Просторный спот для снайперов, но рядом всегда крутятся команды за тяжёлым транспортом.",
+      id: "poi-tank-ridge",
+      type: "tank",
+      title: "Ridgebreaker Drop",
+      description:
+        "Глубинный сброс тяжелой техники в канйон. Идеально для прорыва укреплений на востоке.",
+      position: { x: 66.2, y: 28.4 },
+      visibleZoom: 1.35,
     },
     {
-      id: "poi-sunforge",
-      label: "C",
-      name: "Sunforge Array",
-      position: { x: 68.8, y: 71.4 },
-      intel:
-        "Солнечная ферма, в центре которой активируется система EMP. При удержании зоны можно обрубить электронику противника на 45 секунд.",
+      id: "poi-mission-orbit",
+      type: "mission",
+      title: "Mission: Orbital Relay",
+      description:
+        "Задача: восстановить связь со спутником и получить точную отметку безопасной зоны следующего круга.",
+      position: { x: 21.3, y: 37.5 },
+      visibleZoom: 1.2,
     },
     {
-      id: "poi-halo-basin",
-      label: "D",
-      name: "Halo Basin",
-      position: { x: 37.2, y: 31.7 },
-      intel:
-        "Платформы-бастионы над кратером. Лучшее место для перехвата вражеских десантов и прикрытия союзных вездеходов.",
+      id: "poi-mission-safeguard",
+      type: "mission",
+      title: "Mission: Safeguard Sigma",
+      description:
+        "Кооперативный контракт: защитить грузовой конвой с редкими чипами. Успех открывает временный магазин.",
+      position: { x: 52.8, y: 72.9 },
+      visibleZoom: 1.65,
     },
     {
-      id: "poi-stormfront",
-      label: "E",
-      name: "Stormfront Labs",
-      position: { x: 17.9, y: 44.5 },
-      intel:
-        "Лабораторный комплекс с экспериментальными гаджетами. Присутствует портативный штормогенератор, который вызывает локальный туман.",
+      id: "poi-weapons-cache",
+      type: "weapons",
+      title: "Weapons Cache Delta",
+      description:
+        "Глубокий склад прототипов. Внутри гарантирован апгрейд легендарного оружия и модификаторы боеприпасов.",
+      position: { x: 42.6, y: 46.1 },
+      visibleZoom: 1.05,
     },
     {
-      id: "poi-rift-plunge",
-      label: "F",
-      name: "Rift Plunge",
-      position: { x: 82.1, y: 22.4 },
-      intel:
-        "Глубокая расщелина с зиплайнами и контрабандными контейнерами. Высокий риск, но гарантированный комплект эпического вооружения.",
+      id: "poi-weapons-harbor",
+      type: "weapons",
+      title: "Weapons Chest Harbor",
+      description:
+        "Плавающий контейнер с дропом. Требуется разминирование — награда включает кастомные экзоскелеты.",
+      position: { x: 78.4, y: 63.8 },
+      visibleZoom: 1.5,
     },
   ];
 
   const settings = {
     maxScaleMultiplier: 20,
     poiFocusScaleMultiplier: 10,
+    poiIconBaseSize: 120,
+    poiIconMinSize: 24,
+    poiIconScaleCurve: 0.65,
   };
 
   const setupInteractiveMap = () => {
@@ -63,6 +132,7 @@
     const infoTitle = document.getElementById("info-title");
     const infoDescription = document.getElementById("info-description");
     const infoCloseButton = document.getElementById("info-close");
+    const infoType = document.getElementById("info-type");
 
     if (
       !mapContainer ||
@@ -71,11 +141,14 @@
       !infoPanel ||
       !infoTitle ||
       !infoDescription ||
-      !infoCloseButton
+      !infoCloseButton ||
+      !infoType
     ) {
       console.warn("Карта не инициализирована: элементы не найдены в DOM.");
       return;
     }
+
+    infoType.hidden = true;
 
     const state = {
       x: 0,
@@ -97,8 +170,10 @@
     const activePointers = new Map();
     let panSession = null;
     let pinchSession = null;
+    let transformAnimation = null;
 
     const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+    const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
 
     const getBounds = (scale = state.scale) => {
       const containerWidth = mapContainer.clientWidth;
@@ -136,14 +211,108 @@
 
     const clampScale = (value) => clamp(value, state.minScale, state.maxScale);
 
-    const updateTransform = () => {
-      mapContent.style.transform = `translate(${state.x}px, ${state.y}px) scale(${state.scale})`;
-    };
-
     const clampPosition = () => {
       const { x, y } = getClampedPosition(state.x, state.y);
       state.x = x;
       state.y = y;
+    };
+
+    const getPoiVisibilityThreshold = (poi) =>
+      state.baseScale * (poi.visibleZoom ?? 1);
+
+    const getPoiIconSize = (scale) => {
+      const baseSize = settings.poiIconBaseSize;
+      const minSize = settings.poiIconMinSize;
+      const minScale = state.minScale;
+      const maxScale = state.maxScale;
+      const clampedScale = clamp(scale, minScale, maxScale);
+      const span = Math.max(maxScale - minScale, 0.0001);
+      let progress = (clampedScale - minScale) / span;
+      progress = clamp(progress, 0, 1);
+      if (settings.poiIconScaleCurve && settings.poiIconScaleCurve > 0) {
+        progress = Math.pow(progress, settings.poiIconScaleCurve);
+      }
+      progress = clamp(progress, 0, 1);
+      return baseSize - (baseSize - minSize) * progress;
+    };
+
+    const updatePoiAppearance = () => {
+      const iconSize = getPoiIconSize(state.scale);
+      const iconScale = iconSize / settings.poiIconBaseSize;
+      poiElements.forEach(({ element, data }) => {
+        const isActive = element.dataset.active === "true";
+        if (isActive) {
+          element.dataset.visible = "true";
+          element.style.setProperty("--poi-size-scale", iconScale.toFixed(4));
+          element.style.setProperty("--poi-state-scale", "1");
+        } else {
+          const shouldBeVisible = state.scale >= getPoiVisibilityThreshold(data);
+          element.dataset.visible = shouldBeVisible ? "true" : "false";
+          element.style.setProperty("--poi-size-scale", iconScale.toFixed(4));
+          element.style.removeProperty("--poi-state-scale");
+        }
+      });
+
+      console.debug(
+        `[BF6 MAP] Zoom scale: ${state.scale.toFixed(3)} (min ${state.minScale.toFixed(
+          3
+        )}, max ${state.maxScale.toFixed(3)}), icon size: ${iconSize.toFixed(2)}px`
+      );
+    };
+
+    const updateTransform = () => {
+      mapContent.style.transform = `translate(${state.x}px, ${state.y}px) scale(${state.scale})`;
+      updatePoiAppearance();
+    };
+
+    const stopTransformAnimation = () => {
+      if (!transformAnimation) return;
+      cancelAnimationFrame(transformAnimation.frameId);
+      transformAnimation = null;
+    };
+
+    const animateTransform = ({ x, y, scale }, duration = 420) => {
+      stopTransformAnimation();
+
+      const start = { x: state.x, y: state.y, scale: state.scale };
+      const deltaScale = scale - start.scale;
+      const deltaX = x - start.x;
+      const deltaY = y - start.y;
+
+      if (
+        Math.abs(deltaScale) < 0.001 &&
+        Math.abs(deltaX) < 0.5 &&
+        Math.abs(deltaY) < 0.5
+      ) {
+        state.scale = scale;
+        state.x = x;
+        state.y = y;
+        clampPosition();
+        updateTransform();
+        return;
+      }
+
+      const startTime = performance.now();
+
+      const step = (now) => {
+        const elapsed = now - startTime;
+        const t = clamp(elapsed / duration, 0, 1);
+        const eased = easeOutCubic(t);
+
+        state.scale = start.scale + deltaScale * eased;
+        state.x = start.x + deltaX * eased;
+        state.y = start.y + deltaY * eased;
+        clampPosition();
+        updateTransform();
+
+        if (t < 1) {
+          transformAnimation = { frameId: requestAnimationFrame(step) };
+        } else {
+          transformAnimation = null;
+        }
+      };
+
+      transformAnimation = { frameId: requestAnimationFrame(step) };
     };
 
     const repositionForResize = () => {
@@ -175,54 +344,33 @@
       updateTransform();
     };
 
-    const animatePanTo = (targetX, targetY, duration = 320) => {
-      const startX = state.x;
-      const startY = state.y;
-      const { x: clampedX, y: clampedY } = getClampedPosition(targetX, targetY);
-
-      if (duration <= 0) {
-        state.x = clampedX;
-        state.y = clampedY;
-        updateTransform();
-        return;
-      }
-
-      const startTime = performance.now();
-      const easeOutCubic = (t) => 1 - Math.pow(1 - t, 3);
-
-      const step = (now) => {
-        const elapsed = now - startTime;
-        const t = clamp(elapsed / duration, 0, 1);
-        const eased = easeOutCubic(t);
-
-        state.x = startX + (clampedX - startX) * eased;
-        state.y = startY + (clampedY - startY) * eased;
-        updateTransform();
-
-        if (t < 1) {
-          requestAnimationFrame(step);
-        }
-      };
-
-      requestAnimationFrame(step);
-    };
-
-    const centerOnPoi = (poi) => {
+    const focusPoi = (poi) => {
       const containerWidth = mapContainer.clientWidth;
       const containerHeight = mapContainer.clientHeight;
 
       const mapX = (poi.position.x / 100) * dimensions.width;
       const mapY = (poi.position.y / 100) * dimensions.height;
 
-      const targetX = containerWidth / 2 - mapX * state.scale;
-      const targetY = containerHeight / 2 - mapY * state.scale;
+      const targetScale = clampScale(
+        Math.max(state.scale, state.baseScale * settings.poiFocusScaleMultiplier)
+      );
 
-      animatePanTo(targetX, targetY);
+      const rawX = containerWidth / 2 - mapX * targetScale;
+      const rawY = containerHeight / 2 - mapY * targetScale;
+      const { x: targetX, y: targetY } = getClampedPosition(rawX, rawY, targetScale);
+
+      animateTransform({ x: targetX, y: targetY, scale: targetScale });
     };
+
+    const defaultInfoTypeColor = "rgba(243, 245, 255, 0.82)";
+    const defaultInfoTypeBg = "rgba(59, 130, 246, 0.16)";
+    const defaultInfoTypeBorder = "rgba(59, 130, 246, 0.25)";
 
     const setActivePoi = (poiId) => {
       if (activePoiId && poiElements.has(activePoiId)) {
-        poiElements.get(activePoiId).element.dataset.active = "false";
+        const elem = poiElements.get(activePoiId).element;
+        elem.dataset.active = "false";
+        elem.style.removeProperty("--poi-state-scale");
       }
 
       const entry = poiElements.get(poiId);
@@ -236,63 +384,119 @@
     };
 
     const showInfo = (poi) => {
-      infoTitle.textContent = poi.name;
-      infoDescription.textContent = poi.intel;
+      const typeMeta = POI_TYPES[poi.type];
+
+      infoTitle.textContent = poi.title;
+      infoDescription.textContent = poi.description;
+      infoType.textContent = typeMeta ? typeMeta.title : "Неизвестная точка";
+      infoType.hidden = false;
+
+      infoPanel.style.setProperty(
+        "--info-type-color",
+        typeMeta ? typeMeta.colorPrimary : defaultInfoTypeColor
+      );
+      infoPanel.style.setProperty(
+        "--info-type-bg",
+        typeMeta ? typeMeta.badgeBg : defaultInfoTypeBg
+      );
+      infoPanel.style.setProperty(
+        "--info-type-border",
+        typeMeta ? typeMeta.badgeBorder : defaultInfoTypeBorder
+      );
+
+      infoPanel.dataset.type = typeMeta ? typeMeta.id : "unknown";
       infoPanel.dataset.state = "visible";
     };
 
     const hideInfo = () => {
       infoPanel.dataset.state = "hidden";
+      infoPanel.dataset.type = "";
+      infoType.textContent = "";
+      infoType.hidden = true;
+      infoPanel.style.setProperty("--info-type-color", defaultInfoTypeColor);
+      infoPanel.style.setProperty("--info-type-bg", defaultInfoTypeBg);
+      infoPanel.style.setProperty("--info-type-border", defaultInfoTypeBorder);
+
       if (activePoiId && poiElements.has(activePoiId)) {
         poiElements.get(activePoiId).element.dataset.active = "false";
       }
       activePoiId = null;
     };
 
-    const ensurePoiFocusScale = (poi) => {
-      const desiredScale = clampScale(
-        Math.max(state.scale, state.baseScale * settings.poiFocusScaleMultiplier)
-      );
-
-      if (desiredScale === state.scale) return;
-
-      const mapX = (poi.position.x / 100) * dimensions.width;
-      const mapY = (poi.position.y / 100) * dimensions.height;
-
-      const viewportX = state.x + mapX * state.scale;
-      const viewportY = state.y + mapY * state.scale;
-
-      state.scale = desiredScale;
-      state.x = viewportX - mapX * state.scale;
-      state.y = viewportY - mapY * state.scale;
-
-      clampPosition();
-      updateTransform();
-    };
-
     const handlePoiClick = (poi) => {
-      ensurePoiFocusScale(poi);
       setActivePoi(poi.id);
-      centerOnPoi(poi);
+      focusPoi(poi);
       showInfo(poi);
     };
 
     const createPoiMarkers = () => {
       poiData.forEach((poi) => {
+        const typeMeta = POI_TYPES[poi.type];
+        if (!typeMeta) {
+          console.warn(`Неизвестный тип POI: ${poi.type}`);
+          return;
+        }
+
+        const poiRecord = {
+          ...poi,
+          visibleZoom: poi.visibleZoom ?? 1,
+        };
+
         const button = document.createElement("button");
         button.type = "button";
         button.className = "poi";
-        button.dataset.id = poi.id;
+        button.dataset.id = poiRecord.id;
+        button.dataset.type = poiRecord.type;
         button.dataset.active = "false";
-        button.style.left = `${poi.position.x}%`;
-        button.style.top = `${poi.position.y}%`;
-        button.title = poi.name;
-        button.textContent = poi.label;
-        button.setAttribute("aria-label", `${poi.name}. ${poi.intel}`);
+        button.dataset.visible = "false";
+        button.style.left = `${poiRecord.position.x}%`;
+        button.style.top = `${poiRecord.position.y}%`;
+        button.title = poiRecord.title;
+        button.setAttribute("aria-label", `${typeMeta.title}: ${poiRecord.title}`);
+        button.style.setProperty("--poi-icon-base-size", `${settings.poiIconBaseSize}px`);
+
+        if (typeMeta.pinBackground)
+          button.style.setProperty("--poi-background", typeMeta.pinBackground);
+        if (typeMeta.pinBorder) button.style.setProperty("--poi-border-color", typeMeta.pinBorder);
+        if (typeMeta.pinBorderActive)
+          button.style.setProperty("--poi-border-active-color", typeMeta.pinBorderActive);
+        if (typeMeta.pinIconColor)
+          button.style.setProperty("--poi-icon-color", typeMeta.pinIconColor);
+        if (typeMeta.pinRadius) button.style.setProperty("--poi-radius", typeMeta.pinRadius);
+
+        button.classList.add(`poi--${poiRecord.type}`);
+
+        const createGlyph = () => {
+          const fallback = document.createElement("span");
+          fallback.className = "poi__glyph";
+          fallback.textContent = typeMeta.glyph || "●";
+          fallback.setAttribute("aria-hidden", "true");
+          return fallback;
+        };
+
+        if (typeMeta.icon) {
+          const icon = document.createElement("img");
+          icon.className = "poi__icon";
+          icon.src = typeMeta.icon;
+          icon.alt = typeMeta.title;
+          icon.decoding = "async";
+          icon.loading = "lazy";
+          icon.draggable = false;
+          icon.addEventListener(
+            "error",
+            () => {
+              icon.replaceWith(createGlyph());
+            },
+            { once: true }
+          );
+          button.append(icon);
+        } else {
+          button.append(createGlyph());
+        }
 
         button.addEventListener("click", (event) => {
           event.stopPropagation();
-          handlePoiClick(poi);
+          handlePoiClick(poiRecord);
         });
 
         button.addEventListener("pointerdown", (event) => {
@@ -300,8 +504,10 @@
         });
 
         mapContent.append(button);
-        poiElements.set(poi.id, { element: button, data: poi });
+        poiElements.set(poiRecord.id, { element: button, data: poiRecord, type: typeMeta });
       });
+
+      updatePoiAppearance();
     };
 
     const getMidpoint = (pointerEvents) => {
@@ -360,6 +566,7 @@
     const handlePointerDown = (event) => {
       if (event.pointerType === "mouse" && event.button !== 0) return;
 
+      stopTransformAnimation();
       mapContainer.setPointerCapture(event.pointerId);
       activePointers.set(event.pointerId, event);
 
@@ -433,6 +640,7 @@
 
     const handleWheel = (event) => {
       event.preventDefault();
+      stopTransformAnimation();
 
       const rect = mapContainer.getBoundingClientRect();
       const pointerX = event.clientX - rect.left;
@@ -454,6 +662,7 @@
     };
 
     const handleResize = () => {
+      stopTransformAnimation();
       const containerWidth = mapContainer.clientWidth;
       const containerHeight = mapContainer.clientHeight;
       const scaleToFit = Math.min(
