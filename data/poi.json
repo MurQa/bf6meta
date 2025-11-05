@@ -1,4 +1,18 @@
 {
+  "poi_categories": [
+    {
+      "id": "br_exploration",
+      "title": {
+        "en": "EXPLORATION",
+        "fr": "EXPLORATION",
+        "de": "ERKUNDUNG",
+        "it": "ESPLORAZIONE",
+        "ru": "ИССЛЕДОВАНИЕ",
+        "es": "EXPLORACIÓN",
+        "uk": "ДОСЛІДЖЕННЯ"
+      }
+    }
+  ],
   "labels": [
     {
       "id": "marina",
