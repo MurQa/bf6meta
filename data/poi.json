@@ -2,6 +2,8 @@
   "poi_categories": [
     {
       "id": "br_exploration",
+      "color": "",
+      "iconUrl": "",
       "title": {
         "en": "EXPLORATION",
         "fr": "EXPLORATION",
@@ -18,228 +20,411 @@
       "id": "marina",
       "title": "MARINA",
       "priority": "major",
-      "position": { "x": 440, "y": 1000 }
+      "position": {
+        "x": 440,
+        "y": 1000
+      }
     },
     {
       "id": "vista_hills",
       "title": "VISTA HILLS",
       "priority": "major",
-      "position": { "x": 1180, "y": 880 }
+      "position": {
+        "x": 1180,
+        "y": 880
+      }
     },
     {
       "id": "golf_course",
       "title": "GOLF COURSE",
       "priority": "major",
-      "position": { "x": 1900, "y": 980 }
+      "position": {
+        "x": 1900,
+        "y": 980
+      }
     },
     {
       "id": "area_22b",
       "title": "AREA 22B",
       "priority": "major",
-      "position": { "x": 3050, "y": 900 }
+      "position": {
+        "x": 3050,
+        "y": 900
+      }
     },
     {
       "id": "evac_alpha",
       "title": "EVAC ALPHA",
       "priority": "major",
-      "position": { "x": 480, "y": 1450 }
+      "position": {
+        "x": 480,
+        "y": 1450
+      }
     },
     {
       "id": "crash_site",
       "title": "CRASH SITE",
       "priority": "major",
-      "position": { "x": 1320, "y": 1250 }
+      "position": {
+        "x": 1320,
+        "y": 1250
+      }
     },
     {
       "id": "ground_zero",
       "title": "GROUND ZERO",
       "priority": "major",
-      "position": { "x": 2200, "y": 1640 }
+      "position": {
+        "x": 2200,
+        "y": 1640
+      }
     },
     {
       "id": "chemical_storage",
       "title": "CHEMICAL STORAGE",
       "priority": "major",
-      "position": { "x": 3000, "y": 1500 }
+      "position": {
+        "x": 3000,
+        "y": 1500
+      }
     },
     {
       "id": "combat_training",
       "title": "COMBAT TRAINING",
       "priority": "major",
-      "position": { "x": 3600, "y": 1220 }
+      "position": {
+        "x": 3600,
+        "y": 1220
+      }
     },
     {
       "id": "downtown",
       "title": "DOWNTOWN",
       "priority": "major",
-      "position": { "x": 880, "y": 1850 }
+      "position": {
+        "x": 880,
+        "y": 1850
+      }
     },
     {
       "id": "lyndon_oilworks",
       "title": "LYNDON OILWORKS",
       "priority": "major",
-      "position": { "x": 2450, "y": 2100 }
+      "position": {
+        "x": 2450,
+        "y": 2100
+      }
     },
     {
       "id": "the_seal",
       "title": "THE SEAL",
       "priority": "major",
-      "position": { "x": 3600, "y": 1800 }
+      "position": {
+        "x": 3600,
+        "y": 1800
+      }
     },
     {
       "id": "ocean_park",
       "title": "OCEAN PARK",
       "priority": "major",
-      "position": { "x": 450, "y": 2100 }
+      "position": {
+        "x": 450,
+        "y": 2100
+      }
     },
     {
       "id": "boutique_district",
       "title": "BOUTIQUE DISTRICT",
       "priority": "major",
-      "position": { "x": 900, "y": 2350 }
+      "position": {
+        "x": 900,
+        "y": 2350
+      }
     },
     {
       "id": "defense_nexus",
       "title": "DEFENSE NEXUS",
       "priority": "major",
-      "position": { "x": 1900, "y": 2380 }
+      "position": {
+        "x": 1900,
+        "y": 2380
+      }
     },
     {
       "id": "radar_site",
       "title": "RADAR SITE",
       "priority": "major",
-      "position": { "x": 3650, "y": 2250 }
+      "position": {
+        "x": 3650,
+        "y": 2250
+      }
     },
     {
       "id": "lighthouse",
       "title": "LIGHTHOUSE",
       "priority": "major",
-      "position": { "x": 490, "y": 2950 }
+      "position": {
+        "x": 490,
+        "y": 2950
+      }
     },
     {
       "id": "security_gate",
       "title": "SECURITY GATE",
       "priority": "major",
-      "position": { "x": 2300, "y": 2850 }
+      "position": {
+        "x": 2300,
+        "y": 2850
+      }
     },
     {
       "id": "redline_storage",
       "title": "REDLINE STORAGE",
       "priority": "major",
-      "position": { "x": 3100, "y": 2540 }
+      "position": {
+        "x": 3100,
+        "y": 2540
+      }
     },
     {
       "id": "treatment_plant",
       "title": "TREATMENT PLANT",
       "priority": "major",
-      "position": { "x": 3600, "y": 3150 }
+      "position": {
+        "x": 3600,
+        "y": 3150
+      }
     },
     {
       "id": "evac_bravo",
       "title": "EVAC BRAVO",
       "priority": "major",
-      "position": { "x": 1800, "y": 3350 }
+      "position": {
+        "x": 1800,
+        "y": 3350
+      }
     }
   ],
   "pois": [
     {
       "id": "battle_royale_exploration_marina",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 1280,
+        "y": 1150
+      },
       "name": "MARINA EXPLORATION",
       "description": "Discover the bridge in the Marina District.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_fleetview_ridge",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 2220,
+        "y": 1120
+      },
       "name": "FLEETVIEW RIDGE EXPLORATION",
       "description": "Discover the crashed plane's attached wing in Fleetview Ridge.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_downtown",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 1800,
+        "y": 2050
+      },
       "name": "DOWNTOWN EXPLORATION",
       "description": "Discover the B2 parking garage tunnel connected to the Crow's Nest Downtown.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_golf_course",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 2750,
+        "y": 1150
+      },
       "name": "GOLF COURSE EXPLORATION",
       "description": "Discover the bar at the Vista Reyes Country Club.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_area_22b",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 4040,
+        "y": 875
+      },
       "name": "AREA 22B EXPLORATION",
       "description": "Discover the air traffic control tower in Area 22B.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_radar_site",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 4910,
+        "y": 2690
+      },
       "name": "RADAR SITE EXPLORATION",
       "description": "Discover a radar dome in the Radar and Communications area.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_defense_nexus",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 2800,
+        "y": 2430
+      },
       "name": "DEFENSE NEXUS EXPLORATION",
       "description": "Discover Walker-Senex's rooftop patio.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_boutique_district",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 1710,
+        "y": 2600
+      },
       "name": "BOUTIQUE DISTRICT EXPLORATION",
       "description": "Discover the Chavèl Noir shop in the Boutique District.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_lighthouse",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 1410,
+        "y": 3040
+      },
       "name": "LIGHTHOUSE EXPLORATION",
       "description": "Discover the mounted crab inside the Lyndon Point Lighthouse.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
       "poiType": "br_exploration"
     },
     {
       "id": "battle_royale_exploration_ocean_park",
-      "position": { "x": 0, "y": 0 },
+      "position": {
+        "x": 1299,
+        "y": 2140
+      },
       "name": "OCEAN PARK EXPLORATION",
       "description": "Discover the tennis courts in Ocean Park.",
-      "priority": "normal",
-      "descriptionUrl": "",
-      "imageUrl": "",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_evac_alpha",
+      "position": {
+        "x": 1200,
+        "y": 1880
+      },
+      "name": "EVAC ALPHA EXPLORATION",
+      "description": "Discover the docs at Jewel Beach.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_combat_training",
+      "position": {
+        "x": 4920,
+        "y": 890
+      },
+      "name": "COMBAT TRAINING EXPLORATION",
+      "description": "Discover the radar array near Combat Training.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_ground_zero",
+      "position": {
+        "x": 3500,
+        "y": 1680
+      },
+      "name": "GROUND ZERO EXPLORATION",
+      "description": "Discover the epicenter of explosion.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_the_seal",
+      "position": {
+        "x": 4640,
+        "y": 1800
+      },
+      "name": "THE SEAL EXPLORATION",
+      "description": "Discover the secret tunnel near The Seal.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_security_gate",
+      "position": {
+        "x": 3380,
+        "y": 2970
+      },
+      "name": "SECURITY GATE EXPLORATION",
+      "description": "Discover the Fort Lyndon Gate checkpoint.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_chemical_storage",
+      "position": {
+        "x": 3835,
+        "y": 1700
+      },
+      "name": "CHEMICAL STORAGE EXPLORATION",
+      "description": "Discover the oil refinery near Chemical Storage.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_redline_storage",
+      "position": {
+        "x": 3970,
+        "y": 2460
+      },
+      "name": "REDLINE STORAGE EXPLORATION",
+      "description": "Discover the D-06 vehicle repair bay near Redline Storage.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_treatment_plant",
+      "position": {
+        "x": 4420,
+        "y": 2990
+      },
+      "name": "TREATMENT PLANT EXPLORATION",
+      "description": "Discover the sediment tanks in the Fort Lyndon Treatment Plant.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_lyndon_oilworks",
+      "position": {
+        "x": 3290,
+        "y": 2490
+      },
+      "name": "LYNDON OILWORKS EXPLORATION",
+      "description": "Discover the oil pump jacks at the Lyndon Oilworks.",
+      "priority": "required",
+      "poiType": "br_exploration"
+    },
+    {
+      "id": "battle_royale_exploration_evac_bravo",
+      "position": {
+        "x": 2420,
+        "y": 3290
+      },
+      "name": "EVAC BRAVO EXPLORATION",
+      "description": "Discover the Golden Anchor restaurant.",
+      "priority": "required",
       "poiType": "br_exploration"
     }
   ]
