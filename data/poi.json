@@ -2,7 +2,7 @@
   "poiCategories": [
     {
       "id": "br_exploration",
-      "color": "",
+      "color": "FF8800",
       "iconUrl": "https://raw.githubusercontent.com/MurQa/bf6meta/refs/heads/main/assets/assignment_1.png",
       "title": {
         "en": "EXPLORATION",
