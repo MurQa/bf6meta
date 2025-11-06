@@ -21,7 +21,7 @@
       "title": "MARINA",
       "priority": "major",
       "position": {
-        "x": 440,
+        "x": 1440,
         "y": 1000
       }
     },
@@ -30,7 +30,7 @@
       "title": "VISTA HILLS",
       "priority": "major",
       "position": {
-        "x": 1180,
+        "x": 2180,
         "y": 880
       }
     },
@@ -39,7 +39,7 @@
       "title": "GOLF COURSE",
       "priority": "major",
       "position": {
-        "x": 1900,
+        "x": 2900,
         "y": 980
       }
     },
@@ -48,7 +48,7 @@
       "title": "AREA 22B",
       "priority": "major",
       "position": {
-        "x": 3050,
+        "x": 4050,
         "y": 900
       }
     },
@@ -57,7 +57,7 @@
       "title": "EVAC ALPHA",
       "priority": "major",
       "position": {
-        "x": 480,
+        "x": 1480,
         "y": 1450
       }
     },
@@ -66,7 +66,7 @@
       "title": "CRASH SITE",
       "priority": "major",
       "position": {
-        "x": 1320,
+        "x": 2320,
         "y": 1250
       }
     },
@@ -75,7 +75,7 @@
       "title": "GROUND ZERO",
       "priority": "major",
       "position": {
-        "x": 2200,
+        "x": 3200,
         "y": 1640
       }
     },
@@ -84,7 +84,7 @@
       "title": "CHEMICAL STORAGE",
       "priority": "major",
       "position": {
-        "x": 3000,
+        "x": 4000,
         "y": 1500
       }
     },
@@ -93,7 +93,7 @@
       "title": "COMBAT TRAINING",
       "priority": "major",
       "position": {
-        "x": 3600,
+        "x": 4600,
         "y": 1220
       }
     },
@@ -102,7 +102,7 @@
       "title": "DOWNTOWN",
       "priority": "major",
       "position": {
-        "x": 880,
+        "x": 1880,
         "y": 1850
       }
     },
@@ -111,7 +111,7 @@
       "title": "LYNDON OILWORKS",
       "priority": "major",
       "position": {
-        "x": 2450,
+        "x": 3450,
         "y": 2100
       }
     },
@@ -120,7 +120,7 @@
       "title": "THE SEAL",
       "priority": "major",
       "position": {
-        "x": 3600,
+        "x": 4600,
         "y": 1800
       }
     },
@@ -129,7 +129,7 @@
       "title": "OCEAN PARK",
       "priority": "major",
       "position": {
-        "x": 450,
+        "x": 1450,
         "y": 2100
       }
     },
@@ -138,7 +138,7 @@
       "title": "BOUTIQUE DISTRICT",
       "priority": "major",
       "position": {
-        "x": 900,
+        "x": 1900,
         "y": 2350
       }
     },
@@ -147,7 +147,7 @@
       "title": "DEFENSE NEXUS",
       "priority": "major",
       "position": {
-        "x": 1900,
+        "x": 2900,
         "y": 2380
       }
     },
@@ -156,7 +156,7 @@
       "title": "RADAR SITE",
       "priority": "major",
       "position": {
-        "x": 3650,
+        "x": 4650,
         "y": 2250
       }
     },
@@ -165,7 +165,7 @@
       "title": "LIGHTHOUSE",
       "priority": "major",
       "position": {
-        "x": 490,
+        "x": 1490,
         "y": 2950
       }
     },
@@ -174,7 +174,7 @@
       "title": "SECURITY GATE",
       "priority": "major",
       "position": {
-        "x": 2300,
+        "x": 3300,
         "y": 2850
       }
     },
@@ -183,7 +183,7 @@
       "title": "REDLINE STORAGE",
       "priority": "major",
       "position": {
-        "x": 3100,
+        "x": 4100,
         "y": 2540
       }
     },
@@ -192,7 +192,7 @@
       "title": "TREATMENT PLANT",
       "priority": "major",
       "position": {
-        "x": 3600,
+        "x": 4600,
         "y": 3150
       }
     },
@@ -201,7 +201,7 @@
       "title": "EVAC BRAVO",
       "priority": "major",
       "position": {
-        "x": 1800,
+        "x": 2800,
         "y": 3350
       }
     }
