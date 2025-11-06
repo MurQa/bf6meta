@@ -1,9 +1,9 @@
 {
-  "poi_categories": [
+  "poiCategories": [
     {
       "id": "br_exploration",
       "color": "",
-      "iconUrl": "",
+      "iconUrl": "https://raw.githubusercontent.com/MurQa/bf6meta/refs/heads/main/assets/assignment_1.png",
       "title": {
         "en": "EXPLORATION",
         "fr": "EXPLORATION",
