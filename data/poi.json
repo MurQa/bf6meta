@@ -218,7 +218,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/marina.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/marina.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -236,7 +236,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/fleetview_ridge.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/fleetview_ridge.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -254,7 +254,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/downtown.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/downtown.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -272,7 +272,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/golf_course.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/golf_course.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -290,7 +290,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -308,7 +308,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/radar_site.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/radar_site.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -326,7 +326,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/denese_nexus.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/defense_nexus.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -344,7 +344,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/boutique_district.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/boutique_district.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -362,7 +362,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/lighthouse.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/lighthouse.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -380,7 +380,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/ocean_park.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/ocean_park.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -398,7 +398,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/evac_alpha.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/evac_alpha.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -416,7 +416,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/combat_training.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/combat_training.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -434,7 +434,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/ground_zero.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/ground_zero.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -452,7 +452,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/the_seal.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/the_seal.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -470,7 +470,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/security_gate.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/security_gate.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -488,7 +488,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/chemical_storage.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/chemical_storage.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -506,7 +506,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -524,7 +524,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/treatment_plant.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/treatment_plant.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -542,7 +542,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/lyndon_oilworks.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/lyndon_oilworks.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
@@ -560,7 +560,7 @@
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/evac_bravo.mp4",
+        "url": "https://ik.imagekit.io/fqb60weniu/evac_bravo.mp4?tr=q-20",
         "author": {
           "name": "GCROCK",
           "url": "https://www.youtube.com/@GCROCK2.0"
