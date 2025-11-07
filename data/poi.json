@@ -216,7 +216,14 @@
       "name": "MARINA EXPLORATION",
       "description": "Discover the bridge in the Marina District.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/marina.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_fleetview_ridge",
@@ -227,7 +234,14 @@
       "name": "FLEETVIEW RIDGE EXPLORATION",
       "description": "Discover the crashed plane's attached wing in Fleetview Ridge.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/fleetview_ridge.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_downtown",
@@ -238,7 +252,14 @@
       "name": "DOWNTOWN EXPLORATION",
       "description": "Discover the B2 parking garage tunnel connected to the Crow's Nest Downtown.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/downtown.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_golf_course",
@@ -249,7 +270,14 @@
       "name": "GOLF COURSE EXPLORATION",
       "description": "Discover the bar at the Vista Reyes Country Club.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/golf_course.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_area_22b",
@@ -260,7 +288,14 @@
       "name": "AREA 22B EXPLORATION",
       "description": "Discover the air traffic control tower in Area 22B.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_radar_site",
@@ -271,7 +306,14 @@
       "name": "RADAR SITE EXPLORATION",
       "description": "Discover a radar dome in the Radar and Communications area.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/radar_site.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_defense_nexus",
@@ -282,7 +324,14 @@
       "name": "DEFENSE NEXUS EXPLORATION",
       "description": "Discover Walker-Senex's rooftop patio.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/denese_nexus.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_boutique_district",
@@ -293,7 +342,14 @@
       "name": "BOUTIQUE DISTRICT EXPLORATION",
       "description": "Discover the Chavèl Noir shop in the Boutique District.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/boutique_district.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_lighthouse",
@@ -304,7 +360,14 @@
       "name": "LIGHTHOUSE EXPLORATION",
       "description": "Discover the mounted crab inside the Lyndon Point Lighthouse.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/lighthouse.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_ocean_park",
@@ -315,7 +378,14 @@
       "name": "OCEAN PARK EXPLORATION",
       "description": "Discover the tennis courts in Ocean Park.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/ocean_park.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_evac_alpha",
@@ -326,7 +396,14 @@
       "name": "EVAC ALPHA EXPLORATION",
       "description": "Discover the docs at Jewel Beach.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/evac_alpha.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_combat_training",
@@ -337,7 +414,14 @@
       "name": "COMBAT TRAINING EXPLORATION",
       "description": "Discover the radar array near Combat Training.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/combat_training.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_ground_zero",
@@ -348,7 +432,14 @@
       "name": "GROUND ZERO EXPLORATION",
       "description": "Discover the epicenter of explosion.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/ground_zero.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_the_seal",
@@ -359,7 +450,14 @@
       "name": "THE SEAL EXPLORATION",
       "description": "Discover the secret tunnel near The Seal.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/the_seal.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_security_gate",
@@ -370,7 +468,14 @@
       "name": "SECURITY GATE EXPLORATION",
       "description": "Discover the Fort Lyndon Gate checkpoint.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/security_gate.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_chemical_storage",
@@ -381,7 +486,14 @@
       "name": "CHEMICAL STORAGE EXPLORATION",
       "description": "Discover the oil refinery near Chemical Storage.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/chemical_storage.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_redline_storage",
@@ -392,7 +504,14 @@
       "name": "REDLINE STORAGE EXPLORATION",
       "description": "Discover the D-06 vehicle repair bay near Redline Storage.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_treatment_plant",
@@ -403,7 +522,14 @@
       "name": "TREATMENT PLANT EXPLORATION",
       "description": "Discover the sediment tanks in the Fort Lyndon Treatment Plant.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/treatment_plant.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_lyndon_oilworks",
@@ -414,7 +540,14 @@
       "name": "LYNDON OILWORKS EXPLORATION",
       "description": "Discover the oil pump jacks at the Lyndon Oilworks.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/lyndon_oilworks.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     },
     {
       "id": "battle_royale_exploration_evac_bravo",
@@ -425,7 +558,14 @@
       "name": "EVAC BRAVO EXPLORATION",
       "description": "Discover the Golden Anchor restaurant.",
       "priority": "required",
-      "poiType": "br_exploration"
+      "poiType": "br_exploration",
+      "video": {
+        "url": "https://ik.imagekit.io/fqb60weniu/evac_bravo.mp4",
+        "author": {
+          "name": "GCROCK",
+          "url": "https://www.youtube.com/@GCROCK2.0"
+        }
+      }
     }
   ]
 }
