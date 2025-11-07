@@ -209,362 +209,242 @@
   "pois": [
     {
       "id": "battle_royale_exploration_marina",
-      "position": {
-        "x": 1280,
-        "y": 1150
-      },
+      "position": { "x": 1280, "y": 1150 },
       "name": "MARINA EXPLORATION",
       "description": "Discover the bridge in the Marina District.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/marina.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/marina.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_fleetview_ridge",
-      "position": {
-        "x": 2220,
-        "y": 1120
-      },
+      "position": { "x": 2220, "y": 1120 },
       "name": "FLEETVIEW RIDGE EXPLORATION",
       "description": "Discover the crashed plane's attached wing in Fleetview Ridge.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/fleetview_ridge.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/fleetview_ridge.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_downtown",
-      "position": {
-        "x": 1800,
-        "y": 2050
-      },
+      "position": { "x": 1800, "y": 2050 },
       "name": "DOWNTOWN EXPLORATION",
       "description": "Discover the B2 parking garage tunnel connected to the Crow's Nest Downtown.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/downtown.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/downtown.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_golf_course",
-      "position": {
-        "x": 2750,
-        "y": 1150
-      },
+      "position": { "x": 2750, "y": 1150 },
       "name": "GOLF COURSE EXPLORATION",
       "description": "Discover the bar at the Vista Reyes Country Club.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/golf_course.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/golf_course.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_area_22b",
-      "position": {
-        "x": 4040,
-        "y": 875
-      },
+      "position": { "x": 4040, "y": 875 },
       "name": "AREA 22B EXPLORATION",
       "description": "Discover the air traffic control tower in Area 22B.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/area_22b.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_radar_site",
-      "position": {
-        "x": 4910,
-        "y": 2690
-      },
+      "position": { "x": 4910, "y": 2690 },
       "name": "RADAR SITE EXPLORATION",
       "description": "Discover a radar dome in the Radar and Communications area.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/radar_site.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/radar_site.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_defense_nexus",
-      "position": {
-        "x": 2800,
-        "y": 2430
-      },
+      "position": { "x": 2800, "y": 2430 },
       "name": "DEFENSE NEXUS EXPLORATION",
       "description": "Discover Walker-Senex's rooftop patio.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/defense_nexus.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/defense_nexus.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_boutique_district",
-      "position": {
-        "x": 1710,
-        "y": 2600
-      },
+      "position": { "x": 1710, "y": 2600 },
       "name": "BOUTIQUE DISTRICT EXPLORATION",
       "description": "Discover the Chavèl Noir shop in the Boutique District.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/boutique_district.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/boutique_district.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_lighthouse",
-      "position": {
-        "x": 1410,
-        "y": 3040
-      },
+      "position": { "x": 1410, "y": 3040 },
       "name": "LIGHTHOUSE EXPLORATION",
       "description": "Discover the mounted crab inside the Lyndon Point Lighthouse.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/lighthouse.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/lighthouse.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_ocean_park",
-      "position": {
-        "x": 1299,
-        "y": 2140
-      },
+      "position": { "x": 1299, "y": 2140 },
       "name": "OCEAN PARK EXPLORATION",
       "description": "Discover the tennis courts in Ocean Park.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/ocean_park.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/ocean_park.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_evac_alpha",
-      "position": {
-        "x": 1200,
-        "y": 1880
-      },
+      "position": { "x": 1200, "y": 1880 },
       "name": "EVAC ALPHA EXPLORATION",
       "description": "Discover the docs at Jewel Beach.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/evac_alpha.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/evac_alpha.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_combat_training",
-      "position": {
-        "x": 4920,
-        "y": 890
-      },
+      "position": { "x": 4920, "y": 890 },
       "name": "COMBAT TRAINING EXPLORATION",
       "description": "Discover the radar array near Combat Training.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/combat_training.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/combat_training.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_ground_zero",
-      "position": {
-        "x": 3500,
-        "y": 1680
-      },
+      "position": { "x": 3500, "y": 1680 },
       "name": "GROUND ZERO EXPLORATION",
       "description": "Discover the epicenter of explosion.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/ground_zero.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/ground_zero.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_the_seal",
-      "position": {
-        "x": 4640,
-        "y": 1800
-      },
+      "position": { "x": 4640, "y": 1800 },
       "name": "THE SEAL EXPLORATION",
       "description": "Discover the secret tunnel near The Seal.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/the_seal.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/the_seal.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_security_gate",
-      "position": {
-        "x": 3380,
-        "y": 2970
-      },
+      "position": { "x": 3380, "y": 2970 },
       "name": "SECURITY GATE EXPLORATION",
       "description": "Discover the Fort Lyndon Gate checkpoint.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/security_gate.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/security_gate.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_chemical_storage",
-      "position": {
-        "x": 3835,
-        "y": 1700
-      },
+      "position": { "x": 3835, "y": 1700 },
       "name": "CHEMICAL STORAGE EXPLORATION",
       "description": "Discover the oil refinery near Chemical Storage.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/chemical_storage.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/chemical_storage.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_redline_storage",
-      "position": {
-        "x": 3970,
-        "y": 2460
-      },
+      "position": { "x": 3970, "y": 2460 },
       "name": "REDLINE STORAGE EXPLORATION",
       "description": "Discover the D-06 vehicle repair bay near Redline Storage.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/area_22b.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/redline_storage.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_treatment_plant",
-      "position": {
-        "x": 4420,
-        "y": 2990
-      },
+      "position": { "x": 4420, "y": 2990 },
       "name": "TREATMENT PLANT EXPLORATION",
       "description": "Discover the sediment tanks in the Fort Lyndon Treatment Plant.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/treatment_plant.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/treatment_plant.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_lyndon_oilworks",
-      "position": {
-        "x": 3290,
-        "y": 2490
-      },
+      "position": { "x": 3290, "y": 2490 },
       "name": "LYNDON OILWORKS EXPLORATION",
       "description": "Discover the oil pump jacks at the Lyndon Oilworks.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/lyndon_oilworks.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/lyndon_oilworks.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     },
     {
       "id": "battle_royale_exploration_evac_bravo",
-      "position": {
-        "x": 2420,
-        "y": 3290
-      },
+      "position": { "x": 2420, "y": 3290 },
       "name": "EVAC BRAVO EXPLORATION",
       "description": "Discover the Golden Anchor restaurant.",
       "priority": "required",
       "poiType": "br_exploration",
       "video": {
-        "url": "https://ik.imagekit.io/fqb60weniu/evac_bravo.mp4?tr=q-20",
-        "author": {
-          "name": "GCROCK",
-          "url": "https://www.youtube.com/@GCROCK2.0"
-        }
+        "url": "https://github.com/MurQa/bf6meta/raw/refs/heads/main/video/evac_bravo.mp4",
+        "author": { "name": "GCROCK", "url": "https://www.youtube.com/@GCROCK2.0" }
       }
     }
   ]
